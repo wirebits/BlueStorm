@@ -36,7 +36,7 @@ Example - hciconfig hci0 up<br>
 python3 BlueStorm.py
 ```
 # Includes
-Use a bluetooth adapter.
+Use a bluetooth adapter like TP-Link UB400 USB Bluetooth Adapter support HCI Mode.
 
 <h1>Key Features</h1>
 <b>1. Simple and Clean Menu.</b><br>
