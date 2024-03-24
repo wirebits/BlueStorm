@@ -17,7 +17,7 @@ Make sure the latest python and pip3 is installed on your system (Windows/Linux/
    ```
    sudo su -
    ```
-## 2. Run the following command to check bluetooth interfaces and its BUS on your system :
+## 2. Run the following command to check bluetooth interfaces, BUS and its running status on your system :
    ```
    hciconfig
    ```
