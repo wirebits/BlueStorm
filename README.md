@@ -2,8 +2,9 @@
 A tool which perform deauthentication attack on unpaired bluetooth devices.
 
 # Key Features
-- Simple and Clean Menu
-- Show scanned bluetooth devices in a table
+- Simple and clean menu.
+- Show scanned bluetooth devices in a borderless table.
+- Simple and clean interface for deauthentication attack on target device.
 
 # OS Support
 - Kali Linux
