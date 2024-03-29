@@ -10,7 +10,7 @@ def get_bluetooth_interface():
     os.system('clear')
     logo()
     print("")
-    interfaces = subprocess.check_output("hciconfig", shell=True, text=True)
+    interfaces = subprocess.check_output("hciconfig | grep -E 'hci[0-9]+:|Bus|UP RUNNING|DOWN'", shell=True, text=True)
     print("Available Bluetooth Interfaces:")
     print("")
     print(interfaces)
