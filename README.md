@@ -6,7 +6,9 @@ Those bluetooth devices which is paired but going to connect.
 
 # Key Features
 - Simple and clean menu.
+- Support keyboard interrupts.
 - Show scanned bluetooth devices in a borderless table.
+- Show bluetooth interfaces and its status and select to use that interface.
 - Simple and clean interface for deauthentication attack on target device.
 
 # OS Support
@@ -55,3 +57,13 @@ python3 BlueStorm.py
 - Some cheap Bluetooth Adapters show that it supports HCI mode but it does not work.
 - Some cheap Bluetooth Adapters works on only one OS but not on other OS.
 - Some cheap Bluetooth Adapters does not support Linux.
+
+# Some Comman Errors
+1. `Host is down` - The bluetooth device is connect to the device.
+2. `Connection timed out` - The bluetooth device is powered off.
+
+# In case...
+If the tool is not working, then type the following command to restart bluetooth services :
+```
+sudo service bluetooth restart
+```
