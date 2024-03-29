@@ -1,6 +1,9 @@
 # BlueStorm
 A tool which perform deauthentication attack on unpaired bluetooth devices.
 
+# Meaning of Unpaired devices
+Those bluetooth devices which is paired but going to connect.
+
 # Key Features
 - Simple and clean menu.
 - Show scanned bluetooth devices in a borderless table.
