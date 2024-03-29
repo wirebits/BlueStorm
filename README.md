@@ -61,6 +61,7 @@ python3 BlueStorm.py
 # Some Comman Errors
 1. `Host is down` - The bluetooth device is connected to the device.
 2. `Connection timed out` - The bluetooth device is powered off.
+3. `Connection reset by peer` - The device bluetooth is turned off.
 
 # In case...
 If the tool is not working, then type the following command to restart bluetooth services :
