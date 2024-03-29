@@ -59,7 +59,7 @@ python3 BlueStorm.py
 - Some cheap Bluetooth Adapters does not support Linux.
 
 # Some Comman Errors
-1. `Host is down` - The bluetooth device is connect to the device.
+1. `Host is down` - The bluetooth device is connected to the device.
 2. `Connection timed out` - The bluetooth device is powered off.
 
 # In case...
