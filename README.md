@@ -4,6 +4,9 @@ A tool which perform deauthentication attack on unpaired bluetooth devices.
 # Meaning of Unpaired devices
 Those bluetooth devices which is paired but going to connect.
 
+# Note
+This is working on old Neckbands, TWS and Bluetooth Speakers.
+
 # Key Features
 - Simple and clean menu.
 - Support keyboard interrupts.
