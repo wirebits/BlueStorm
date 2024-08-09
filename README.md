@@ -47,7 +47,13 @@ python3 BlueStorm.py
    4. Number of threads
 7. After that, press Enter.
 8. Done!
- 
+
+# What happened after execution of script?
+1. If bluetooth device is going to connect, it is not able to connect.
+2. If it is connected, then the slight disturbance is happening during listing music or watching videos.<br>
+It is like someone is pause and play quickly in few seconds.<br>
+The disturbance is not much powerful but it is enough to irritate.
+
 # For Better Results
 - Use a Bluetooth Adapter for better results of the tool.
 - Make sure that Bluetooth Adapter supports `HCI` mode.
