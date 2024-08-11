@@ -47,7 +47,7 @@ def main():
         exit(0)
     
     try:
-        threads_count = int(input('Number of threads > '))
+        threads_count = int(input('Number of threads (Max : 1200) > '))
     except:
         print('[!] Number of threads must be an integer!')
         exit(0)
