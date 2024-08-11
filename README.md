@@ -4,6 +4,9 @@ A tool which perform deauthentication attack on unpaired bluetooth devices.
 # Meaning of Unpaired devices
 Those bluetooth devices which is paired but going to connect.
 
+# Screenshot
+![BlueStorm](https://github.com/user-attachments/assets/095b710f-c6bb-49c3-b4b5-33ba74fd54f5)
+
 # OS Support
 - Kali Linux
 - Raspberry Pi OS
