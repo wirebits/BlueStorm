@@ -48,12 +48,14 @@ python3 BlueStorm.py
    2. Target MAC Address
    3. Packet Size
    4. Number of threads
-7. After that, press Enter.
-8. Done!
+7. `Packet Size` must be less than or equal to `600` and `Number of threads` must be less than or equal to `1200`.
+8. After that, press Enter.
+9. Done!
 
 # What happened after execution of script?
 1. If bluetooth device is going to connect, it is not able to connect.
 2. If it is connected, then the slight disturbance is happening during listing music or watching videos.<br>
+It takes some time to happen disturbance.
 It is like someone is pause and play quickly in few seconds.<br>
 The disturbance is not much powerful but it is enough to irritate.
 
@@ -61,6 +63,8 @@ The disturbance is not much powerful but it is enough to irritate.
 - Use a Bluetooth Adapter for better results of the tool.
 - Make sure that Bluetooth Adapter supports `HCI` mode.
 - **TP-Link UB400 USB Bluetooth Adapter** is one of the Bluetooth Adapter.
+- Bluetooth adapter that has `CSR8510 A10` is good.
+- If bluetooth adapter has a long range dBi antenna, then it is very good and most effective for deauth attack.
 - To check Bluetooth Adapter supports HCI mode or not, there are two ways :
   1. Type `lsusb` command after connecting adapter to the system.
      - It show the `(HCI Mode)` at the end of the adapter name means it supports HCI mode.
@@ -71,9 +75,3 @@ The disturbance is not much powerful but it is enough to irritate.
 - Some cheap Bluetooth Adapters show that it supports HCI mode but it does not work.
 - Some cheap Bluetooth Adapters works on only one OS but not on other OS.
 - Some cheap Bluetooth Adapters does not support Linux.
-
-# In case...
-If the tool is not working, then type the following command to restart bluetooth services :
-```
-sudo service bluetooth restart
-```
