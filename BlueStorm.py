@@ -63,13 +63,13 @@ def main():
     try:
         packet_size = int(input(f'{GREEN}[*]{RESET} {YELLOW}Packet Size (Max : 600){RESET} {CYAN}>{RESET} '))
     except ValueError:
-        print(f'{RED}[!]{RESET} {RED}Packet size must be an integer between 1 and 600!{RESET}')
+        print(f'{RED}[!]{RESET} {RED}Packet size must be an integer!{RESET}')
         exit(0)
 
     try:
         threads_count = int(input(f'{GREEN}[*]{RESET} {YELLOW}Number of threads {RESET} {CYAN}>{RESET} '))
     except ValueError:
-        print(f'{RED}[!]{RESET} {RED}Number of threads must be an integer between 1 and 1200!{RESET}')
+        print(f'{RED}[!]{RESET} {RED}Number of threads must be an integer!{RESET}')
         exit(0)
 
     print("")
