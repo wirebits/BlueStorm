@@ -45,7 +45,8 @@ def logo():
     """)
 
 def main():
-    subprocess.check_output("sudo service bluetooth restart", shell=True, stderr=subprocess.STDOUT, text=True)
+    subprocess.check_output("sudo service bluetooth stop", shell=True, stderr=subprocess.STDOUT, text=True)
+    subprocess.check_output("sudo service bluetooth start", shell=True, stderr=subprocess.STDOUT, text=True)
     os.system('clear')
     logo()
     print("")
