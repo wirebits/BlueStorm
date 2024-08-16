@@ -11,6 +11,9 @@ Those bluetooth devices which is paired but going to connect.
 - Kali Linux
 - Raspberry Pi OS
 
+# Note
+The script takes some time to start around 40-50 seconds.
+
 # Setup
 Make sure the latest python and pip3 is installed on your system (Windows/Linux/MacOS).
 
