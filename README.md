@@ -39,7 +39,7 @@ hciconfig hciX up
 ```
 4. Run the following command to scan nearby bluetooth devices and store in a `.txt` file for future use :
 ```
-hcitool -i hciX scan > scaned_devices.txt
+hcitool -i hciX scan > devices.txt
 ```
 4. Download or Clone the Repository.
 5. Open the folder and run the *BlueStorm.py* file by type the following command :
@@ -51,7 +51,7 @@ python3 BlueStorm.py
    2. Target MAC Address
    3. Packet Size
    4. Number of threads
-7. `Packet Size` must be less than or equal to `600` and `Number of threads` must be less than or equal to `1200`.
+7. `Packet Size` must be less than or equal to `600` and `Number of threads` must be greater than `1200`.
 8. After that, press Enter.
 9. Done!
 
