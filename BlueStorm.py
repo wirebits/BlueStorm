@@ -68,7 +68,7 @@ def main():
         exit(0)
 
     try:
-        threads_count = int(input(f'{GREEN}[*]{RESET} {YELLOW}Number of threads {RESET} {CYAN}>{RESET} '))
+        threads_count = int(input(f'{GREEN}[*]{RESET} {YELLOW}Number of threads (Min : 1200){RESET} {CYAN}>{RESET} '))
     except ValueError:
         print(f'{RED}[!]{RESET} {RED}Number of threads must be an integer!{RESET}')
         exit(0)
