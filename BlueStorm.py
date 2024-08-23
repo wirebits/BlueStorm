@@ -36,12 +36,12 @@ def logo():
         {RED}  .:#@@@#.-@@+. .#@@@#.. {RESET}
         {RED} .+@@@%. .-@@+.   .%@@@+. {RESET}
         {RED} .:*#:.  .-@@+.   :@@@@=. {RESET}
-        {RED}         .-@@+. :%@@@*. {RESET}
-        {RED}         .-@@+:#@@@#. {RESET}
-        {RED}         .-@@@@@@%. {RESET}
-        {RED}         .-@@@@%:. {RESET}
-        {RED}         .-@@%-. {RESET}
-        {RED}          ....  {RESET}
+                {RED} .-@@+. :%@@@*. {RESET}
+                {RED} .-@@+:#@@@#. {RESET}
+                {RED} .-@@@@@@%. {RESET}
+                {RED} .-@@@@%:. {RESET}
+                {RED} .-@@%-. {RESET}
+                {RED} ....  {RESET}
     """)
 
 def main():
