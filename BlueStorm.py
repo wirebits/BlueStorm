@@ -56,7 +56,7 @@ def main():
         print(f'{RED}[!]{RESET} {RED}Bluetooth Interface not entered!{RESET}')
         exit(0)
 
-    target_address = input(f'{GREEN}[*]{RESET} {YELLOW}Target ID or MAC Address{RESET} {CYAN}>{RESET} ')
+    target_address = input(f'{GREEN}[*]{RESET} {YELLOW}Target MAC Address{RESET} {CYAN}>{RESET} ')
     if len(target_address) < 1:
         print(f'{RED}[!]{RESET} {RED}Target address not entered!{RESET}')
         exit(0)
