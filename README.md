@@ -51,7 +51,7 @@ python3 BlueStorm.py
    2. Target MAC Address
    3. Packet Size
    4. Number of threads
-7. `Packet Size` must be less than or equal to `600` and `Number of threads` must be greater than `1200`.
+7. `Packet Size` must be less than or equal to `600` and `Number of threads` must be greater than or equal to `1200`.
 8. After that, press Enter.
 9. Done!
 
