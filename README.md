@@ -1,4 +1,4 @@
-![BlueStorm](https://github.com/user-attachments/assets/eb3c0799-cc28-4ea6-8386-62b9d1fdd52d)
+<img width="1024" height="1024" alt="BlueStorm" src="https://github.com/user-attachments/assets/d94432d6-fa01-4c7e-af1e-d3d0dde8f862" />
 
 # BlueStorm
 A tool which perform deauthentication attack on unpaired bluetooth devices.
